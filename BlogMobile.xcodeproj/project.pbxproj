@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500562F205D54469BD06004E /* Pods_BlogMobile_BlogMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F370E8369BE371CB7BC08B /* Pods_BlogMobile_BlogMobileUITests.framework */; };
+		5ED21ADF103FF832F813722D /* Pods_BlogMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFA132A0C83EA7CC40B669A /* Pods_BlogMobile.framework */; };
+		7B5A31A5DA6A70708B179646 /* Pods_BlogMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C93843BECDFFAA1FB470EE /* Pods_BlogMobileTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BF6CA432D1DA93D00387614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF6CA242D1DA93A00387614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF6CA2B2D1DA93A00387614;
+			remoteInfo = BlogMobile;
+		};
+		1BF6CA4D2D1DA93D00387614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BF6CA242D1DA93A00387614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF6CA2B2D1DA93A00387614;
+			remoteInfo = BlogMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1816769C6BE3151EE62E98B1 /* Pods-BlogMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMobileTests.release.xcconfig"; path = "Target Support Files/Pods-BlogMobileTests/Pods-BlogMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		188CB2DF085CD4BE81ADE5CC /* Pods-BlogMobile-BlogMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMobile-BlogMobileUITests.release.xcconfig"; path = "Target Support Files/Pods-BlogMobile-BlogMobileUITests/Pods-BlogMobile-BlogMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BF6CA2C2D1DA93A00387614 /* BlogMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF6CA422D1DA93D00387614 /* BlogMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF6CA4C2D1DA93D00387614 /* BlogMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3EEB6114EF422BFBCFFD03 /* Pods-BlogMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMobile.release.xcconfig"; path = "Target Support Files/Pods-BlogMobile/Pods-BlogMobile.release.xcconfig"; sourceTree = "<group>"; };
+		5B1ACC7E54545E310AA24AF5 /* Pods-BlogMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-BlogMobileTests/Pods-BlogMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E982FA20E4C5B9EB24DB8BA /* Pods-BlogMobile-BlogMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMobile-BlogMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlogMobile-BlogMobileUITests/Pods-BlogMobile-BlogMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66C93843BECDFFAA1FB470EE /* Pods_BlogMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFA132A0C83EA7CC40B669A /* Pods_BlogMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F370E8369BE371CB7BC08B /* Pods_BlogMobile_BlogMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogMobile_BlogMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8261B65042B9D1E1225CC72 /* Pods-BlogMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMobile.debug.xcconfig"; path = "Target Support Files/Pods-BlogMobile/Pods-BlogMobile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1BF6CA542D1DA93D00387614 /* Exceptions for "BlogMobile" folder in "BlogMobile" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1BF6CA2B2D1DA93A00387614 /* BlogMobile */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1BF6CA2E2D1DA93A00387614 /* BlogMobile */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1BF6CA542D1DA93D00387614 /* Exceptions for "BlogMobile" folder in "BlogMobile" target */,
+			);
+			path = BlogMobile;
+			sourceTree = "<group>";
+		};
+		1BF6CA452D1DA93D00387614 /* BlogMobileTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlogMobileTests;
+			sourceTree = "<group>";
+		};
+		1BF6CA4F2D1DA93D00387614 /* BlogMobileUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlogMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF6CA292D1DA93A00387614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED21ADF103FF832F813722D /* Pods_BlogMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF6CA3F2D1DA93D00387614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5A31A5DA6A70708B179646 /* Pods_BlogMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF6CA492D1DA93D00387614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500562F205D54469BD06004E /* Pods_BlogMobile_BlogMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF6CA232D1DA93A00387614 = {
+			isa = PBXGroup;
+			children = (
+				1BF6CA2E2D1DA93A00387614 /* BlogMobile */,
+				1BF6CA452D1DA93D00387614 /* BlogMobileTests */,
+				1BF6CA4F2D1DA93D00387614 /* BlogMobileUITests */,
+				1BF6CA2D2D1DA93A00387614 /* Products */,
+				D02B6D13D0ED60D3A36D2410 /* Pods */,
+				C7ADBAB6259423BD1D8942B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BF6CA2D2D1DA93A00387614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BF6CA2C2D1DA93A00387614 /* BlogMobile.app */,
+				1BF6CA422D1DA93D00387614 /* BlogMobileTests.xctest */,
+				1BF6CA4C2D1DA93D00387614 /* BlogMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7ADBAB6259423BD1D8942B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA132A0C83EA7CC40B669A /* Pods_BlogMobile.framework */,
+				99F370E8369BE371CB7BC08B /* Pods_BlogMobile_BlogMobileUITests.framework */,
+				66C93843BECDFFAA1FB470EE /* Pods_BlogMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D02B6D13D0ED60D3A36D2410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8261B65042B9D1E1225CC72 /* Pods-BlogMobile.debug.xcconfig */,
+				4C3EEB6114EF422BFBCFFD03 /* Pods-BlogMobile.release.xcconfig */,
+				5E982FA20E4C5B9EB24DB8BA /* Pods-BlogMobile-BlogMobileUITests.debug.xcconfig */,
+				188CB2DF085CD4BE81ADE5CC /* Pods-BlogMobile-BlogMobileUITests.release.xcconfig */,
+				5B1ACC7E54545E310AA24AF5 /* Pods-BlogMobileTests.debug.xcconfig */,
+				1816769C6BE3151EE62E98B1 /* Pods-BlogMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BF6CA2B2D1DA93A00387614 /* BlogMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF6CA552D1DA93D00387614 /* Build configuration list for PBXNativeTarget "BlogMobile" */;
+			buildPhases = (
+				41B7493C4002F7BC368DB6BB /* [CP] Check Pods Manifest.lock */,
+				1BF6CA282D1DA93A00387614 /* Sources */,
+				1BF6CA292D1DA93A00387614 /* Frameworks */,
+				1BF6CA2A2D1DA93A00387614 /* Resources */,
+				E834969E82FE8ABA058D4F6E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1BF6CA2E2D1DA93A00387614 /* BlogMobile */,
+			);
+			name = BlogMobile;
+			productName = BlogMobile;
+			productReference = 1BF6CA2C2D1DA93A00387614 /* BlogMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BF6CA412D1DA93D00387614 /* BlogMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF6CA5A2D1DA93D00387614 /* Build configuration list for PBXNativeTarget "BlogMobileTests" */;
+			buildPhases = (
+				2735AB0F62CCF38FA0B18D68 /* [CP] Check Pods Manifest.lock */,
+				1BF6CA3E2D1DA93D00387614 /* Sources */,
+				1BF6CA3F2D1DA93D00387614 /* Frameworks */,
+				1BF6CA402D1DA93D00387614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF6CA442D1DA93D00387614 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1BF6CA452D1DA93D00387614 /* BlogMobileTests */,
+			);
+			name = BlogMobileTests;
+			productName = BlogMobileTests;
+			productReference = 1BF6CA422D1DA93D00387614 /* BlogMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BF6CA4B2D1DA93D00387614 /* BlogMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF6CA5D2D1DA93D00387614 /* Build configuration list for PBXNativeTarget "BlogMobileUITests" */;
+			buildPhases = (
+				E35E8919581E5B6455A496D1 /* [CP] Check Pods Manifest.lock */,
+				1BF6CA482D1DA93D00387614 /* Sources */,
+				1BF6CA492D1DA93D00387614 /* Frameworks */,
+				1BF6CA4A2D1DA93D00387614 /* Resources */,
+				B8BE9A494CA9CF7277B7CE9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BF6CA4E2D1DA93D00387614 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1BF6CA4F2D1DA93D00387614 /* BlogMobileUITests */,
+			);
+			name = BlogMobileUITests;
+			productName = BlogMobileUITests;
+			productReference = 1BF6CA4C2D1DA93D00387614 /* BlogMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BF6CA242D1DA93A00387614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1BF6CA2B2D1DA93A00387614 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1BF6CA412D1DA93D00387614 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1BF6CA2B2D1DA93A00387614;
+					};
+					1BF6CA4B2D1DA93D00387614 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1BF6CA2B2D1DA93A00387614;
+					};
+				};
+			};
+			buildConfigurationList = 1BF6CA272D1DA93A00387614 /* Build configuration list for PBXProject "BlogMobile" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BF6CA232D1DA93A00387614;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1BF6CA2D2D1DA93A00387614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF6CA2B2D1DA93A00387614 /* BlogMobile */,
+				1BF6CA412D1DA93D00387614 /* BlogMobileTests */,
+				1BF6CA4B2D1DA93D00387614 /* BlogMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BF6CA2A2D1DA93A00387614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF6CA402D1DA93D00387614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF6CA4A2D1DA93D00387614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2735AB0F62CCF38FA0B18D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41B7493C4002F7BC368DB6BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BE9A494CA9CF7277B7CE9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogMobile-BlogMobileUITests/Pods-BlogMobile-BlogMobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogMobile-BlogMobileUITests/Pods-BlogMobile-BlogMobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlogMobile-BlogMobileUITests/Pods-BlogMobile-BlogMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35E8919581E5B6455A496D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogMobile-BlogMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E834969E82FE8ABA058D4F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogMobile/Pods-BlogMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlogMobile/Pods-BlogMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlogMobile/Pods-BlogMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BF6CA282D1DA93A00387614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF6CA3E2D1DA93D00387614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BF6CA482D1DA93D00387614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF6CA442D1DA93D00387614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF6CA2B2D1DA93A00387614 /* BlogMobile */;
+			targetProxy = 1BF6CA432D1DA93D00387614 /* PBXContainerItemProxy */;
+		};
+		1BF6CA4E2D1DA93D00387614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF6CA2B2D1DA93A00387614 /* BlogMobile */;
+			targetProxy = 1BF6CA4D2D1DA93D00387614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BF6CA562D1DA93D00387614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8261B65042B9D1E1225CC72 /* Pods-BlogMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlogMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.cardanimation.BlogMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BF6CA572D1DA93D00387614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3EEB6114EF422BFBCFFD03 /* Pods-BlogMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlogMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.cardanimation.BlogMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BF6CA582D1DA93D00387614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BF6CA592D1DA93D00387614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BF6CA5B2D1DA93D00387614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1ACC7E54545E310AA24AF5 /* Pods-BlogMobileTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.cardanimation.BlogMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlogMobile";
+			};
+			name = Debug;
+		};
+		1BF6CA5C2D1DA93D00387614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1816769C6BE3151EE62E98B1 /* Pods-BlogMobileTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.cardanimation.BlogMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlogMobile";
+			};
+			name = Release;
+		};
+		1BF6CA5E2D1DA93D00387614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E982FA20E4C5B9EB24DB8BA /* Pods-BlogMobile-BlogMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.cardanimation.BlogMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlogMobile;
+			};
+			name = Debug;
+		};
+		1BF6CA5F2D1DA93D00387614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188CB2DF085CD4BE81ADE5CC /* Pods-BlogMobile-BlogMobileUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6538NBCCY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easytime.cardanimation.BlogMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlogMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF6CA272D1DA93A00387614 /* Build configuration list for PBXProject "BlogMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF6CA582D1DA93D00387614 /* Debug */,
+				1BF6CA592D1DA93D00387614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF6CA552D1DA93D00387614 /* Build configuration list for PBXNativeTarget "BlogMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF6CA562D1DA93D00387614 /* Debug */,
+				1BF6CA572D1DA93D00387614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF6CA5A2D1DA93D00387614 /* Build configuration list for PBXNativeTarget "BlogMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF6CA5B2D1DA93D00387614 /* Debug */,
+				1BF6CA5C2D1DA93D00387614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BF6CA5D2D1DA93D00387614 /* Build configuration list for PBXNativeTarget "BlogMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BF6CA5E2D1DA93D00387614 /* Debug */,
+				1BF6CA5F2D1DA93D00387614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BF6CA242D1DA93A00387614 /* Project object */;
+}

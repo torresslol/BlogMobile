@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.10.2)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - Kingfisher (7.12.0)
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - IGListKit (~> 4.0)
+  - Kingfisher (~> 7.0)
+  - LookinServer (= 1.2.8)
+  - Moya (~> 15.0)
+  - SnapKit (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IGListDiffKit
+    - IGListKit
+    - Kingfisher
+    - LookinServer
+    - Moya
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: 2b739814fc73c428179008551bfdb4f93c3528f3
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-BlogMobile/Pods-BlogMobile-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/IGListDiffKit/IGListDiffKit.framework
+${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

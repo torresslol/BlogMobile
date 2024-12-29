@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01B67034-E957-47DB-BD45-98CCE03DFE10"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74E20890-759D-4A48-BC4F-4D4DEC006451"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlogMobile/BLoC/ArticleListBloc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetchArticles(page:size:locale:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74E20890-759D-4A48-BC4F-4D4DEC006451 - ac12ea11b1b174a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for BlogMobile.ArticleListBloc.fetchArticles(page: Swift.Int, size: Swift.Int, locale: Swift.String) async throws -&gt; ()"
+                  moduleName = "BlogMobile.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yy/Desktop/Torres/GitHub/BlogMobile/BlogMobile/BLoC/ArticleListBloc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53">
+               </Location>
+               <Location
+                  uuid = "74E20890-759D-4A48-BC4F-4D4DEC006451 - 47feafe60a8743e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for BlogMobile.ArticleListBloc.fetchArticles(page: Swift.Int, size: Swift.Int, locale: Swift.String) async throws -&gt; ()"
+                  moduleName = "BlogMobile.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yy/Desktop/Torres/GitHub/BlogMobile/BlogMobile/BLoC/ArticleListBloc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53">
+               </Location>
+               <Location
+                  uuid = "74E20890-759D-4A48-BC4F-4D4DEC006451 - 45ad980b0d519ce3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for BlogMobile.ArticleListBloc.fetchArticles(page: Swift.Int, size: Swift.Int, locale: Swift.String) async throws -&gt; ()"
+                  moduleName = "BlogMobile.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yy/Desktop/Torres/GitHub/BlogMobile/BlogMobile/BLoC/ArticleListBloc.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
