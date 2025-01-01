@@ -1,3 +1,5 @@
+## 演示如何实现一个高性能的滑动列表和
+
 ## 主要页面和功能
 1. 文章列表
 2. 文章详情（ web ）
@@ -32,9 +34,6 @@
 4. **IGList** 网格视图差异更新
 5. **LookinServer** 仅用于快速调试布局，提效利器
 
-
-
-以上 SDK 基本都属于开发基础套件，被广泛大量采用，且我理解实现和有修改的能力
 
 #### 使用的其他工具
 **icon** - [https://www.flaticon.com/search?word=number&type=uicon](https://www.flaticon.com/search?word=number&type=uicon) （时间有限，使用 IconFont 比较麻烦）
